@@ -75,9 +75,11 @@ public class DetailsRouter implements RouteProtocol {
         return intent;
     }
 }
+```
 
-// then call
+Then call:
 
+```
     // this will use your custom configuration
     Router.route( this, new DetailsRouter(3000) );
     
